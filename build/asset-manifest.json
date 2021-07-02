@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sbereducation_test/build/static/css/main.6611bc6f.chunk.css",
+    "main.js": "/sbereducation_test/build/static/js/main.5d603a6c.chunk.js",
+    "main.js.map": "/sbereducation_test/build/static/js/main.5d603a6c.chunk.js.map",
+    "runtime-main.js": "/sbereducation_test/build/static/js/runtime-main.94c39ae3.js",
+    "runtime-main.js.map": "/sbereducation_test/build/static/js/runtime-main.94c39ae3.js.map",
+    "static/js/2.0aa86809.chunk.js": "/sbereducation_test/build/static/js/2.0aa86809.chunk.js",
+    "static/js/2.0aa86809.chunk.js.map": "/sbereducation_test/build/static/js/2.0aa86809.chunk.js.map",
+    "index.html": "/sbereducation_test/build/index.html",
+    "static/css/main.6611bc6f.chunk.css.map": "/sbereducation_test/build/static/css/main.6611bc6f.chunk.css.map",
+    "static/js/2.0aa86809.chunk.js.LICENSE.txt": "/sbereducation_test/build/static/js/2.0aa86809.chunk.js.LICENSE.txt",
+    "static/media/arrow.73724c71.svg": "/sbereducation_test/build/static/media/arrow.73724c71.svg",
+    "static/media/check.77cafe8d.svg": "/sbereducation_test/build/static/media/check.77cafe8d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94c39ae3.js",
+    "static/js/2.0aa86809.chunk.js",
+    "static/css/main.6611bc6f.chunk.css",
+    "static/js/main.5d603a6c.chunk.js"
+  ]
+}
