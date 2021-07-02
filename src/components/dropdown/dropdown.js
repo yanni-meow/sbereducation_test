@@ -36,6 +36,7 @@ export const Dropdown = (props) => {
     const tryIt = choice.filter((item) => item[options] === element[options]).length;
     // если нет, обновлем state
     if(!tryIt) setChoice((oldItems) => [...oldItems, element])
+    setAllGroupsList(groups)
   }
 
   // создаем options list
@@ -85,7 +86,7 @@ export const Dropdown = (props) => {
     const filtredList = {};
 
     keys.forEach((key) => {
-        const sorted = allGroupsList[key].filter((element) =>
+        const sorted = groups[key].filter((element) =>
             element[options].toLowerCase().includes(event.target.value.toLowerCase())
         )
         filtredList[key] = sorted;
