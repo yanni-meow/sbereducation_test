@@ -1,0 +1,36 @@
+.container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	background: #FAFBFC;
+}
+
+.result {
+    width: 80%;
+    height: 50vh;
+    overflow: scroll;
+    margin: 0 auto;
+    margin-top: 8px;
+    padding: 8px;
+
+    border: 1px solid #909090;
+    border-radius: 8px;
+
+    * { width: 100%; }
+
+    h1 {
+        margin: 8px 0;
+        text-align: center;
+    }
+    tr {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    th {
+        font-weight: 600 !important;
+    }
+}
